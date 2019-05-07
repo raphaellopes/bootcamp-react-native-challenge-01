@@ -5,14 +5,13 @@
  * @format
  * @flow
  */
-
+import './config/reactotron';
 import React, { Component } from 'react';
 import {
   Text, View,
 } from 'react-native';
 
-type Props = {};
-export default class App extends Component<Props> {
+export default class App extends Component {
   render() {
     return (
       <View>
