@@ -1,21 +1,18 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
+// vendors
 import './config/reactotron';
 import React, { Component } from 'react';
 import {
-  Text, View,
+  View,
 } from 'react-native';
+
+// locals
+import Post from '~/components/post';
 
 export default class App extends Component {
   render() {
     return (
       <View>
-        <Text>Welcome to React Native!</Text>
+        <Post />
       </View>
     );
   }
