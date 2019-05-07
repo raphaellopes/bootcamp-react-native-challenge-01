@@ -1,5 +1,5 @@
 // vendors
-import './config/reactotron';
+import '~/config/reactotron';
 import React, { Component } from 'react';
 import {
   View, ScrollView,
